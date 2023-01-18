@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(187, 146, 187);
+}
+
+
+section {
+    height: 100vh; 
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+  
+}
+  
+  nav li {
+    padding: 5px 10px; 
+    border: none;
+    display: inline-block;
+    transition: all linear 0.5s;
+    margin-right: 150px;
+  }
+  
+  
+
+.skills {
+    color: purple; 
+}
+
+.connect {
+    height: 25vh;
+}
