@@ -4,17 +4,24 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 98px; 
+}
 
 body {
     background-color: rgb(187, 146, 187);
 }
 
-
 section {
     height: 100vh; 
 }
 
+.navbar-brand {
+    margin-left: 20px; 
+}
+
 .navbar {
+    background-color: rgb(78, 52, 151);
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -23,23 +30,78 @@ section {
 ul {
     list-style: none;
     display: flex;
-  
 }
   
-  nav li {
+nav li {
     padding: 5px 10px; 
     border: none;
     display: inline-block;
     transition: all linear 0.5s;
     margin-right: 150px;
+}
+
+.nav-link {
+    color: rgb(249, 228, 206); 
+}
+
+a {
+    text-decoration: none;
+    color: linen;
+    padding: 0 10px; 
+}  
+
+.welcome-section {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    align-items: center; 
+    color:rgb(81, 46, 81);
   }
-  
-  
+
+.welcome-section p {
+    font-size: 3rem;
+    font-weight: 200; 
+    font-style: italic; 
+    color:rgb(101, 101, 170);
+}
+
+.welcome-section h1 {
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    font-size: 3.5em;
+}
+
+.projects-section-header {
+    color: rgb(103, 15, 103); 
+}
+
+.card-container {
+    padding: 100px;  
+}
 
 .skills {
-    color: purple; 
+    color: rgb(81, 30, 81); 
+}
+
+.icons {
+    margin: 300px 50px;
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(80, 80, 145); 
 }
 
 .connect {
     height: 25vh;
+    color:rgb(81, 30, 81);
+}
+
+.connect-logo {
+    margin-top: 48px; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+
 }
